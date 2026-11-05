@@ -1,0 +1,25 @@
+{
+  "appId": "com.steppewarrior.fit",
+  "appName": "Воин степи",
+  "webDir": "www",
+  "backgroundColor": "#171a12",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#171a12",
+    "allowsLinkPreview": false,
+    "scrollEnabled": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 700,
+      "launchAutoHide": true,
+      "backgroundColor": "#171a12",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "backgroundColor": "#171a12",
+      "overlaysWebView": true
+    }
+  }
+}
